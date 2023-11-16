@@ -1,12 +1,12 @@
 import random
 
-lower = "abcdefghijklmnopqrstuvwxyz"
-upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-numbers = "0123456789"
-symbols = "#@%[]{}()*/;,.-_"
+min = "abcdefghijklmnopqrstuvwxyz"
+mai = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+num = "0123456789"
+sim = "&#@%[]{}()*/;,.-_"
 
-all = lower + upper + numbers + symbols
-length = 16
+all = min + mai + num + sim
+length = 20
 password = "".join(random.sample(all, length))
 
 print(password)
