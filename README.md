@@ -1,1 +1,1 @@
-Este repositório contém alguns códigos simples escritos em linguagens diversas apenas por diversão ou utilidade pública mesmo, sem grandes pretensões.
+Este repositório contém alguns códigos aleatórios escritos em linguagens sem grandes pretensões.
