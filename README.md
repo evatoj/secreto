@@ -1,1 +1,1 @@
-Este repositório contém alguns códigos aleatórios escritos em linguagens sem grandes pretensões.
+Este repositório contém alguns códigos aleatórios escritos em linguagens diversas sem grandes pretensões.
