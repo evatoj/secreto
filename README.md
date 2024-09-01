@@ -1,2 +1,2 @@
-# SECRETO
-<b>Este repositório contém alguns códigos aleatórios escritos em linguagens diversas sem grandes pretensões.</b>
+# 'secreto'
+<b>Este repositório contém apenas alguns códigos aleatórios escritos em várias linguagens diferentes.</b>
