@@ -3,10 +3,20 @@ import random
 min = "abcdefghijklmnopqrstuvwxyz"
 mai = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 num = "0123456789"
-sim = "&#@%[]{}()*/;,.-_"
+sim = "!@#$%&*?"
 
-all = min + mai + num + sim
-length = 20
-password = "".join(random.sample(all, length))
+combinar = min + mai + num + sim
 
-print(password)
+while True:
+    try:
+        tamanho = int(
+            input("Qual o tamanho da senha desejada?(até 20 caracteres) "))
+        if 1 <= tamanho <= 20:
+            break
+        else:
+            print("Por favor, digite um número entre 1 e 20.")
+    except ValueError:
+        print("Entrada inválida. Por favor, digite um número válido.")
+
+senha = "".join(random.sample(combinar, tamanho))
+print("Sua senha gerada:", senha)
