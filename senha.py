@@ -6,7 +6,7 @@ num = "0123456789"
 sim = "&#@%[]{}()*/;,.-_"
 
 all = min + mai + num + sim
-length = 20
-password = "".join(random.sample(all, length))
+tamanho = 20
+senha = "".join(random.sample(all, tamanho))
 
-print(password)
+print(senha)
